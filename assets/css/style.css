@@ -1,0 +1,91 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: wheat;
+}
+
+header {
+  margin-left: 0;
+  margin-top: 5px;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #cccccc;
+}
+.Inside-Header {
+  width: 300px;
+}
+  #myname {
+    background-color: teal;
+    color: white;
+    margin: 0;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  
+}
+li {
+  display: inline;
+  
+}
+li a {
+  float: right;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: gray;
+ 
+}
+
+
+  #Main-Content {
+   margin-left: 150px;
+   margin-right: 150px;
+   background-color: pink;
+
+  }
+  h1 {
+      color: white;
+      margin-left:auto auto auto 30px;
+      width: 400px;
+      background-color: teal;
+  }
+  h2 {
+   margin-left: 20px;
+    border-bottom: solid grey;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #4aaaa5;
+  }
+  #myimage {
+      float: left;
+      margin-left: 20px;
+      margin-right: 20px;
+      border: 1px solid white;
+      width: 200px;
+      height: 200px;
+  }
+  #portfolio-examples {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: blue;
+  }
+  #Contact-form {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: blue;
+  }
+  #Message {
+    width: 1000px;
+    height: 500px;
+  }
+  
