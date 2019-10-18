@@ -1,4 +1,4 @@
-* {box-sizing: border-box;}
+/* body {box-sizing: border-box;} */
 
 body { 
   margin: 0;
@@ -8,12 +8,11 @@ body {
 }
 
 header {
-  margin-left: 0;
   margin-top: 10px;
   background-color: #ffffff;
   width: 100%;
   padding: 20px;
-  border-style: solid 2px #cccccc;
+  border: solid 2px #cccccc;
 
 }
 .Header-Container {
@@ -46,6 +45,7 @@ li a {
   display: inline-block;  
   padding: 10px; 
   color: gray;
+ 
 }
 
 .Main-Content {
@@ -56,7 +56,8 @@ li a {
    margin-top: 10px;
    height: 100vh;
    background-color: #ffffff;
-   border-style: solid 6px red;
+   border: solid 2px #cccccc;
+   
 }
 #Main-Content-heading {
      font-size: 25;
@@ -71,7 +72,7 @@ h1 {
   }
 h2 {
    margin-left: 20px;
-    border-bottom: solid grey;
+    border-bottom: solid #cccccc;
     font-size: 25px;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -92,6 +93,7 @@ h2 {
 #bio-paragraphs {
     color: #777777;  
     margin-left: 20px;
+    line-height: 2;
 }
 /* Portfolio Tab Styling */
 
@@ -152,11 +154,13 @@ h2 {
 
 /* Contact Tab Styling */
 
+}
 #Contact-form {
     margin-left: 150px;
     margin-right: 150px;
     background-color: blue;
   }
+
 #Message {
     width: 1000px;
     height: 500px;
@@ -165,11 +169,29 @@ h2 {
     width: 600px;
     box-sizing: border-box;
   }
+  .submit-button {
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    margin-left: 40px;
+    border-width: 15px;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 40px;
+}
   /* Footer Styling */
 
-  .footer {
-    position: fixed;
-    color: green;
+  footer {
+    position: absolute;
+    color: #4aaaa5;  
+    border-top: 8px solid #4aaaa5;
+    padding: 10px 20px;  
     width: 100%;
-    background: blue;
+    background: #777777;
   }
+ footer h5 {
+   font-size: 15px;
+   line-height: 10px;
+   color: #ffffff;
+   text-align: center;
+   }
